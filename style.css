@@ -1,0 +1,47 @@
+/* Importação Fonts (GoogleFonts) */
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@600&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+
+  /*Estilos gerais (Todo projeto)*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #1f1f1f;
+        color: #fff;
+    }
+
+    html {
+        font-family: Inter, sams-serif;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none; /* Remove decoração texto */
+    }
+
+    ul {
+        /* Remove os marcadores (Bolinhas) */
+        list-style: none;
+    }
+
+    /*________________________________________________________________*/
+    /* Cabeçalho/Header (Barra de navegação) */
+
+    nav{
+        max-width: 1120px;
+        margin: auto; /*Centraliza o elemento horizontalmente*/
+        padding: 1.5rem 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+
+
+
+  
